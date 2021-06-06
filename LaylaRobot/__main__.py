@@ -90,7 +90,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/albatraozxd"),
+        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/joinchat/WTg7iwnktYQ4MWQx/"),
         InlineKeyboardButton(
             text="ɢʀᴏᴜᴘ", url=f"https://t.me/hindi_chatting_india"
         ),
