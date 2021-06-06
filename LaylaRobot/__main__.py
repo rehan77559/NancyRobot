@@ -367,8 +367,8 @@ def layla_about_callback(update, context):
                  \n❍ Awesome Bots @vasuxd
                  \n❍ Group @ChattingIND
                  \n❍ Assistant @AlbatraozA.
-                 \nHere is the [💾Repository](https://github.com/xxvasu).
-                 \n\nIf you have any question about Albatraoz, let us know at .""",
+                 \nHere is the [💾Repository](https://github.com/xxvasu/nancy).
+                 \n\nIf you have any question about ★NสŇcץ★, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -395,7 +395,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *★NสŇcץ★*
-                 \nHere is the [Source Code](https://github.com/xxvasu) .""",
+                 \nHere is the [Source Code](https://github.com/xxvasu/nancy) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
