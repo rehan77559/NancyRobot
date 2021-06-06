@@ -9,7 +9,7 @@
          "manager",
          "Layla"
       ],   
-   "repository": "https://github.com/xxvasu/LaylaRobot.git",
+   "repository": "https://github.com/xxvasu/nancy-robot.git",
    "addons": [
       {
          "options": {
@@ -30,17 +30,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": "1648850361:AAGCf4QRW-s5JcapZdoCe4S0KHCwrEDncn0"
+         "value": "1627184971:AAFND8cNxWZAjdZMSlfdHo4szHujdHcpQko"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "3098137"
+         "value": "3353889"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "c19e8f8977645e530612656c9ad776c2"
+         "value": "994af9adf34df3e169a8f02d5bfe3fbc"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -55,11 +55,11 @@
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": "1648850361"
+         "value": "1627184971"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": "8528c12f-562e-4bf0-9854-d54dc87db087"
+        "value": "5b2defbb-6b8d-426d-abbc-bb5f04a9a929"
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -77,7 +77,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://vasu:vasu2122@cluster0.wamuq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+         "value": "mongodb+srv://vasu:vasu2122@cluster0.nmrer.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -90,12 +90,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001433935565"
+         "value": "-1001424376205"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001201558138"
+         "value": "-1001400495771"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -120,7 +120,7 @@
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": "3yJJWbK6e1MMp75NSxNfV9I~BqQr_fB9NUoNvyLj0KrW2VwwEp0RRuRjkSn25EVQ"
+         "value": "W5qIqy9nWM8B9MBnc7LWpVBhyIXIZGdBsmW0dNOQJlUOUIaxlsw7dQoHHN~I~nNz"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -163,7 +163,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": "https://albatraozbot.heroku.com"
+         "value": "https://nancyrobot.heroku.com"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
