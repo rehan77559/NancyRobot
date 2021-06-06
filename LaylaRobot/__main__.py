@@ -365,7 +365,7 @@ def layla_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
                  \n❍ Awesome Bots @vasuxd
-                 \n❍ Group @hindi_chatting_india
+                 \n❍ Group @ChattingIND
                  \n❍ Assistant @AlbatraozA.
                  \nHere is the [💾Repository](https://github.com/xxvasu).
                  \n\nIf you have any question about Albatraoz, let us know at .""",
