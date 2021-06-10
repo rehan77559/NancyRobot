@@ -21,5 +21,5 @@ __help__ = """
 ❍ /userbotjoin - invite assistant to your chat
 ❍ /admincache - Refresh admin list
 =>>   *Use*
-1) Add @yukimusicbot in your group to admin with all permission
+1) Add @ALPHAmusicrobot in your group to admin with all permission
 2) Add Assistant I'd to your group"""
