@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello, I'M ★NสŇcץ★
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ`
-maintained by • @xxvasu ❤"""
+Maintained by • @xxvasu ❤"""
 
 buttons = [
     [
@@ -365,7 +365,7 @@ def layla_about_callback(update, context):
                  \n❍ [Logs](https://t.me/NancyLogs)
                  \n❍ [Support](https://t.me/AboutNancy)
                  \nHere is the [💾Repository](https://github.com/xxvasu/NancyRobot.git).
-                 \n\nIf you have any question about ★NสŇcץ★, let us know at .""",
+                 \n\nIf you have any question about ★NสŇcץ★, let us know [vasu](https://t.me/xxvasu).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
