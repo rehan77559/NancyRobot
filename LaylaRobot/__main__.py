@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello, I'M ★NสŇcץ★
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ` • @xxvasu ❤
-"""
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ`
+maintained by • @xxvasu ❤"""
 
 buttons = [
     [
@@ -90,7 +90,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/joinchat/WTg7iwnktYQ4MWQx/"),
+        InlineKeyboardButton(text="ʟᴏɢꜱ", url=f"https://t.me/NancyLogs"),
         InlineKeyboardButton(
             text="ɢʀᴏᴜᴘ", url=f"https://t.me/hindi_chatting_india"
         ),
@@ -109,9 +109,7 @@ HELP_STRINGS = """
 layla_IMG = "https://telegra.ph/file/220b238c8f0ee75a88130.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/VasuChaubey) \
- Supporting isnt always financial! [Owner](t.me/vasuxd) \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+ You can support the project [VASU](t.me/VasuChaubey)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -364,10 +362,9 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @vasuxd
-                 \n❍ Group @ChattingIND
-                 \n❍ Assistant @AlbatraozA.
-                 \nHere is the [💾Repository](https://github.com/xxvasu/nancy).
+                 \n❍ [Logs](https://t.me/NancyLogs)
+                 \n❍ [Support](https://t.me/AboutNancy)
+                 \nHere is the [💾Repository](https://github.com/xxvasu/NancyRobot.git).
                  \n\nIf you have any question about ★NสŇcץ★, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,7 +392,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *★NสŇcץ★*
-                 \nHere is the [Source Code](https://github.com/xxvasu/nancy) .""",
+                 \nHere is the [Source Code](https://github.com/xxvasu/NancyRobot.git) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
