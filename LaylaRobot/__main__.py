@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, I'M ★NสŇcץ★
+Hello, I'M [★NสŇcץ★](https://telegra.ph/file/a9a9b70fb4b4ef8f59207.jpg)
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ`
 Maintained by • @xxvasu ❤"""
 
@@ -363,9 +363,9 @@ def layla_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
                  \n❍ [Logs](https://t.me/NancyLogs)
-                 \n❍ [Support](https://t.me/AboutNancy)
+                 \n❍ [Support](https://t.me/OsmSupport)
                  \nHere is the [💾Repository](https://github.com/xxvasu/NancyRobot.git).
-                 \n\nIf you have any question about ★NสŇcץ★, let us know [vasu](https://t.me/xxvasu).""",
+                 \n\nIf you have any question about ★NสŇcץ★, let us know ➢ [ᴠᴀꜱᴜ](https://t.me/xxvasu).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
